@@ -38,9 +38,10 @@ public class Anggota {
     }
 
     public void angsur(int jumlahAngsuran) {
+        if (jumlahAngsuran < (0.1 * this.jumlahPinjaman)) {
+            System.out.println("Maaf, angsuran harus 10% dari jumlah pinjaman");
+        } else {
         this.jumlahPinjaman -= jumlahAngsuran;
-        if (this.jumlahPinjaman < 0) {
-            this.jumlahPinjaman = 0;
         }
     }
 }
