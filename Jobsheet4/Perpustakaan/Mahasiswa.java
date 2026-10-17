@@ -10,7 +10,7 @@ public class Mahasiswa {
     public Mahasiswa(String nim, String nama) {
         this.nim = nim;
         this.nama = nama;
-        this.riwayatPeminjaman = new ArrayList<Peminjaman>();
+        riwayatPeminjaman = new ArrayList<Peminjaman>();
     }
 
     public String getNim() {

@@ -8,6 +8,9 @@ public class PerpustakaanDemo {
         Buku buku2 = new Buku("978-602-412-518-9", "Filosofi Teras", "Henry Manampiring");
         Buku buku3 = new Buku("978-0-735-21129-2", "Atomic Habits", "James Clear");
 
+        buku1.setJudul("Harry Potter");
+        System.out.println(buku1.getJudul());
+
         Mahasiswa mhs1 = new Mahasiswa("254107060103", "Aulia Bilqisty");
 
         Peminjaman pinjam1 = new Peminjaman("PJ01", LocalDate.of(2026, 5, 10));
