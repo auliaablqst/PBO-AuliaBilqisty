@@ -15,13 +15,14 @@ public class Dosen extends Pegawai {
     }
 
     public String tampilProgramStudi() {
-        return this.programStudi;
+        return programStudi;
     }
 
     @Override
     public String getInfo() {
         String info = super.getInfo();
-        info += "Prodi      : " + this.programStudi + "\n";
+        info += "Prodi      : " + programStudi + "\n";
+        
         return info;
     }
 }

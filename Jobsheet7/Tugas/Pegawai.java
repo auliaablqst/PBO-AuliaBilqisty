@@ -19,13 +19,14 @@ public class Pegawai {
 
     public String getInfo() {
         String info = "";
-        info += "NIP        : " + this.nip + "\n";
-        info += "Nama       : " + this.nama + "\n";
-        info += "Gaji       : Rp" + this.gaji + "\n";
+        info += "NIP        : " + nip + "\n";
+        info += "Nama       : " + nama + "\n";
+        info += "Gaji       : Rp" + gaji + "\n";
+        
         return info;
     }
 
     public double tampilGaji() {
-        return this.gaji;
+        return gaji;
     }
 }

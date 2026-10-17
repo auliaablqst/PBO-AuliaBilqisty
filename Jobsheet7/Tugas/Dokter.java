@@ -17,7 +17,8 @@ public class Dokter extends Pegawai {
     @Override
     public String getInfo() {
         String info = super.getInfo();
-        info += "Spesialis  : " + this.spesialis + "\n";
+        info += "Spesialis  : " + spesialis + "\n";
+        
         return info;
     }
 }
