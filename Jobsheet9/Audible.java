@@ -1,0 +1,8 @@
+package Jobsheet9;
+
+public interface Audible {
+    int volume = 0;
+
+    void naikkanVolume();
+    void turunkanVolume();
+}
